@@ -176,7 +176,7 @@ def main():
     with st.sidebar:
         st.title("Menu:")
         
-        if st.button("Process PDFs"):
+        if st.button("Start embedding"):
             if not os.path.exists(FAISS_INDEX_PATH):
                 with st.spinner("Processing..."):
                     raw_text = get_pdf_text_with_formatting()
