@@ -65,7 +65,7 @@ def get_pdf_text_with_formatting():
 # Function to call the Llama model on Bedrock
 def call_llama_bedrock(prompt):
     formatted_prompt = f"""
-        If the information related to the user's question is not present in the documents, respond with: "question out of context" "stop now".
+        If the information related to the user's question is not present in the documents, respond with: "question out of context stop now" .
 
         Context: {prompt['context']}
         Question: {prompt['question']}
