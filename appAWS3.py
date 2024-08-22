@@ -66,7 +66,7 @@ def get_pdf_text_with_formatting():
 def call_llama_bedrock(prompt):
     formatted_prompt = f"""
         If the information related to the user's question is not present in the documents, respond with: "question out of context " .
-
+        If it is in the documents summarise the answer.
         Context: {prompt['context']}
         Question: {prompt['question']}
 
@@ -75,7 +75,7 @@ def call_llama_bedrock(prompt):
     
     native_request = {
         "prompt": formatted_prompt,
-        "max_tokens": 2000,
+        "max_gen_length": 500,
         "temperature": 0.1,
         "stop": ["no response"]
     }
