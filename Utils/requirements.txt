@@ -1,0 +1,5 @@
+pdfkit
+beautifulsoup4
+pdfkit
+requests
+wkhtmltopdf
