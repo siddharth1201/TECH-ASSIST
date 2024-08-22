@@ -75,8 +75,9 @@ def call_llama_bedrock(prompt):
     
     native_request = {
         "prompt": formatted_prompt,
-        "max_tokens": 500,
+        "max_gen_len": 512,
         "temperature": 0.1,
+        "stop": ["question out of context"]
     }
     
     request_body = json.dumps(native_request)
