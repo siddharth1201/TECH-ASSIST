@@ -155,7 +155,7 @@ def main():
         page_icon=":brain:",  # Favicon emoji
         layout="centered",  # Page layout option
     )
-    st.header("Chat with PDF using Llama 3.1 8B 💁")
+    st.header("AWS | DRUPAL | GENERATIVE AI TECH ASSIST 🤖💁")
 
     
     # Input field for user's message
