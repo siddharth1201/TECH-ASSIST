@@ -70,7 +70,7 @@ def call_llama_bedrock(prompt):
         Context: {prompt['context']}
         Question: {prompt['question']}
 
-        Your response must be solely based on the documents. If the answer is not found in the documents, respond with "question out of context. stop now \n\n"
+        Your response must be solely based on the documents. If the answer is not found in the documents, respond with "question out of context: no response. \n\n"
     """
     
     native_request = {
