@@ -75,7 +75,7 @@ def call_llama_bedrock(prompt):
     
     native_request = {
         "prompt": formatted_prompt,
-        "max_gen_len": 512,
+        "max_gen_len": 1000,
         "temperature": 0.1,
         "stop": ["no response"]
     }
