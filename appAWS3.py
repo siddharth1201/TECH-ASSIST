@@ -157,7 +157,7 @@ def main():
         page_icon=":brain:",  # Favicon emoji
         layout="centered",  # Page layout option
     )
-    st.header("AWS | DRUPAL | GENERATIVE AI TECH ASSIST 🤖💁")
+    st.header("AWS | DRUPAL | GENERATIVE AI | LMS Moodle | TECH ASSIST 🤖")
 
     
     # Input field for user's message
