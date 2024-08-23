@@ -153,7 +153,7 @@ def user_input(user_question):
 # Main Streamlit app
 def main():
     st.set_page_config(
-        page_title="Chat with Gemini-Pro!",
+        page_title="Tech Assist!",
         page_icon=":brain:",  # Favicon emoji
         layout="centered",  # Page layout option
     )
